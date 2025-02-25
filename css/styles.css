@@ -42,7 +42,7 @@ img {
   display: flex;
 }
 
-.container-header {
+.container {
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
@@ -60,7 +60,7 @@ img {
   align-items: center;
 }
 
-.container-header ul {
+.container ul {
   display: flex;
   gap: 40px;
 }
@@ -188,7 +188,7 @@ address {
   margin-bottom: 8px;
 }
 
-.section-paragraph {
+.section-prgrph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -202,7 +202,7 @@ address {
   padding: 120px 0;
 }
 
-.section-title-our-team {
+.section-team {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -230,7 +230,7 @@ address {
   background-color: #ffffff;
 }
 
-.section-three-title-one {
+.secthree-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -240,7 +240,7 @@ address {
   margin-bottom: 8px;
 }
 
-.section-three-paragraph-one {
+.secthree-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -249,21 +249,21 @@ address {
 }
 
 /*section four settings*/
-.section-four {
+.sec-four {
   padding: 120px 0 120px 0;
 }
 
-.section-four ul {
+.sec-four ul {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
 
-.section-four ul li {
+.sec-four ul li {
   width: calc((100% - 48px) / 3);
 }
-.section-four-title-one {
+.sectitle-one {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -279,7 +279,7 @@ address {
   border-top: none;
   margin-bottom: 8px;
 }
-.section-four-title-two {
+.sectitle-two {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -287,7 +287,7 @@ address {
   color: #2e2f42;
 }
 
-.section-four-paragraph-two {
+.sec-p-two {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -302,7 +302,7 @@ address {
   padding: 100px 0;
 }
 
-.footer-paragraph {
+.footer-p {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
