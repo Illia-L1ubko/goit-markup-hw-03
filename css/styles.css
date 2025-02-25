@@ -47,7 +47,7 @@ img {
   align-items: center;
 }
 
-nav {
+.navigation {
   display: flex;
   padding: 24px 0;
   align-items: center;
