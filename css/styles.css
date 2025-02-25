@@ -5,9 +5,6 @@ body {
   background-color: #ffffff;
 }
 
-.visually-hidden {
-  display: none;
-}
 a {
   text-decoration: none;
 }
@@ -62,7 +59,7 @@ img {
   align-items: center;
 }
 
-.container ul {
+.container .nav-menu {
   display: flex;
   gap: 40px;
 }
@@ -98,6 +95,7 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .nav_link:hover,
@@ -126,11 +124,11 @@ address {
 /*section one settings*/
 
 .section-one .container {
-  padding: 188px 0;
   flex-direction: column;
 }
 .section-one {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .main-title {
@@ -169,17 +167,20 @@ address {
 }
 
 /*section two settings*/
-.section-two .container {
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.section-two {
   padding: 120px 0;
-}
-
-.section-two ul {
-  display: flex;
-  gap: 24px;
-}
-
-.section-two li {
-  width: calc((100% - 72px) / 4);
 }
 
 .section-title {
@@ -198,7 +199,22 @@ address {
   color: #434455;
 }
 
+.adv-list {
+  display: flex;
+  gap: 24px;
+}
+
+.adv-item {
+  width: calc((100% - 72px) / 4);
+}
+
 /*section three settings*/
+
+.team-list {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
 
 .sectionthree {
   background-color: #f4f4fd;
@@ -231,6 +247,8 @@ address {
 }
 .team-member {
   background-color: #ffffff;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0 0 4px 4px;
 }
 
 .secthree-title {
@@ -252,20 +270,11 @@ address {
 }
 
 /*section four settings*/
+
 .sec-four {
   padding: 120px 0 120px 0;
 }
 
-.sec-four ul {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-}
-
-.sec-four ul li {
-  width: calc((100% - 48px) / 3);
-}
 .sectitle-one {
   font-size: 36px;
   line-height: 1.11;
@@ -274,15 +283,14 @@ address {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-  text-transform: lowercase;
 }
 
 .app-info {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
+
 .app-title {
   font-weight: 500;
   font-size: 20px;
@@ -290,6 +298,7 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: lowercase;
+  margin-bottom: 8px;
 }
 
 .app-cat {
@@ -297,6 +306,17 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 /*footer settings*/
