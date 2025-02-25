@@ -318,11 +318,9 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
-}
-
-.footer a {
   display: inline-block;
 }
+
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
