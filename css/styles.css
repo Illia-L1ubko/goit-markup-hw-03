@@ -44,7 +44,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.container-styles {
+.container {
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
