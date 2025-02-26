@@ -328,6 +328,10 @@ img {
 
 /*footer settings*/
 
+.ft-logo a {
+  display: inline-block;
+}
+
 .footer {
   font-family: "Raleway", sans-serif;
   background-color: #2e2f42;
@@ -352,6 +356,7 @@ img {
   margin-bottom: 16px;
   display: inline-block;
   align-self: flex-start;
+  width: max-content;
 }
 
 .logo-footer {
