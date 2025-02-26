@@ -44,7 +44,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.container {
+.container-styles {
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
@@ -184,11 +184,13 @@ img {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .section-two {
@@ -340,6 +342,9 @@ img {
   padding: 100px 0;
 }
 
+.footer .container {
+  display: inline-block;
+}
 .footer-p {
   line-height: 1.5;
   color: #f4f4fd;
