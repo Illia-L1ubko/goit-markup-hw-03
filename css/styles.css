@@ -39,6 +39,9 @@ img {
   display: block;
 }
 
+.section {
+  padding: 120px 0;
+}
 /* header settings*/
 
 .header {
