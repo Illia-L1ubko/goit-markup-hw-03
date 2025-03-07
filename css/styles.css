@@ -52,11 +52,17 @@ img {
   margin: 0 auto;
   padding: 0 15px;
   width: 1158px;
-  justify-content: space-between;
 }
 
 .container .flex {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -103,7 +109,6 @@ img {
 
 .contact-info {
   font-style: normal;
-  display: flex;
 }
 
 .contact-list {
@@ -178,7 +183,7 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
-  margin: 20px auto 0;
+  margin: 48px auto 0;
 }
 
 .main-button:hover,
